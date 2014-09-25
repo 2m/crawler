@@ -1,8 +1,8 @@
-import com.gargoylesoftware.htmlunit.Page
-import javax.xml.transform.{TransformerFactory, OutputKeys}
+import java.io.{ByteArrayOutputStream, InputStream, StringWriter}
 import javax.xml.transform.dom.DOMSource
 import javax.xml.transform.stream.StreamResult
-import java.io.{ByteArrayOutputStream, InputStream, StringWriter}
+import javax.xml.transform.{OutputKeys, TransformerFactory}
+
 import org.apache.http.HttpEntity
 
 package object crawler {
