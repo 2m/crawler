@@ -98,7 +98,7 @@ want to do is submit the form and do our search.
 
     navigateTo("http://www.google.com") {
       in(form having id("tsf")) {
-        in(textField having id("lst-ib")) {
+        in(input having id("lst-ib")) {
           typeIn("bplawler")
         }
         in(submit having name("btnK") {
